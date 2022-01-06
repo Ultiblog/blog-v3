@@ -13,5 +13,12 @@
   "homepage": "http://Text",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ultiblog/blog-v3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ultiblog/blog-v3/issues"
   }
 }

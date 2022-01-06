@@ -8,20 +8,18 @@ layout: 'base.njk'
           <div class="hero__content flow">
             <h1 class="section-title">Welcome to my blog!</h1>
             <p>
-              I use this space to document my adventures in front-end
-              development, sharing how I’ve overcome issues I’ve run into,
-              useful resources, and more.
+              Εδώ θα μπει κείμενο για το πόσο πολύ μου αρέσει που κάνω το συγκεκριμένο 
+              μπλα μπλα μπλα, μπλα μπλα μπλα
             </p>
             <p>
-              Below are some of my favourite articles, or you can go to the blog
-              page to see my most recent posts.
+              Κάτι πρέπει να μπει και εδω υποθέτω
             </p>
             <div class="flex-group">
               <a href="#featured-articles" class="btn btn--primary"
-                >Featured articles</a
+                >Προτεινόμενα άρθρα</a
               >
               <a href="./blog" class="btn btn--neutral"
-                >Most recent articles</a
+                >Πιο πρόσφατα άρθρα</a
               >
             </div>
           </div>
@@ -33,10 +31,9 @@ layout: 'base.njk'
 
       <section id="featured-articles" class="featured-articles">
         <div class="container flow">
-          <h2 class="section-title text-center">Featured articles</h2>
+          <h2 class="section-title text-center">Προτεινόμενα άρθρα</h2>
           <p class="text-center">
-            Here is a sample of articles which I feel give you a good idea of
-            what this site is all about.
+            Από τους καλύτερους αρθρογράφους μας, αποκλειστικά για εσας (50$)
           </p>
            <ul role="list" class="articles__list flow">
              {%- for post in collections.featured | reverse -%}
