@@ -1,0 +1,20 @@
+<h1 class="section-title">{{ post.data.title }}</h1>
+<p>
+    {{post.data.description}}
+</p>
+<p>
+    Κάτι πρέπει να μπει και εδω υποθέτω
+</p>
+<div class="flex-group">
+    <a href="#featured-articles" class="btn btn--primary">Προτεινόμενα άρθρα</a>
+    <a href="./blog" class="btn btn--neutral">Πιο πρόσφατα άρθρα</a>
+</div>
+<p class="snippet__meta">by
+    <span>{{post.data.author}}</span>
+    on
+    <span>{{post.data.date | postDate }}</span></p>
+</div>
+
+<div>
+    <img src="{{post.data.image}}" alt="{{post.data.image}}" class="hero__image" />
+</div>
